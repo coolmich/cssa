@@ -1,0 +1,32 @@
+html, body{
+	height: 100%;
+}
+
+.container{
+  .title-author{
+    margin-top: -250px;
+		.blog-title{
+			font-size: 45px;
+			font-weight: bolder;
+			color: white;
+		}
+		.blog-author{
+		  font-size: 20px;
+		  color: #ddd;
+		}
+  }
+  .content-container{
+    padding-top: 300px;
+    .blog-content{
+      font-family: Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+      font-size: 18px;
+    }
+  }
+}
+.image-container{
+  height: 100%;
+	.blog-img{
+		height: 100%;
+		background-size: cover;
+	}
+}
